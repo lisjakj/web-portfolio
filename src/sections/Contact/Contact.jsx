@@ -11,10 +11,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        'service_tg9z2pe', // EmailJS Service ID
-        'template_s7ys2om', // EmailJS Template ID
+        'service_tg9z2pe',
+        'template_s7ys2om',
         form.current,
-        '-Cei3Znj0gWGTwppT' // EmailJS Public Key/User ID
+        '-Cei3Znj0gWGTwppT'
       )
       .then(
         (result) => {
@@ -27,7 +27,7 @@ function Contact() {
         }
       );
 
-    e.target.reset(); // Reset the form after submission
+    e.target.reset();
   };
 
   return (
