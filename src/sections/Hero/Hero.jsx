@@ -41,6 +41,15 @@ function Hero() {
                 Lisjak
             </h1>
             <h2>Full-stack developer</h2>
+            
+            <p className={styles.description}>
+            S entuzijazmom za razvoj modernih React web aplikacija i fokusom na izvrsno korisničko iskustvo.
+            </p>
+            <a href={CV} download>
+                <button className="hover">
+                    Životopis
+                </button>
+            </a>
             <span>
                 <a href="https://twitter.com/" target="_blank">
                     <img src={twitterIcon} alt="Twitter icon" />
@@ -52,14 +61,6 @@ function Hero() {
                     <img src={githubIcon} alt="Github icon" />
                 </a>
             </span>
-            <p className={styles.description}>
-                With a passion for developing modern React web apps for commercial businesses.
-            </p>
-            <a href={CV} download>
-                <button className="hover">
-                    Resume
-                </button>
-            </a>
         </div>
     </section>
   )

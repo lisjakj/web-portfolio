@@ -4,7 +4,7 @@ function Footer() {
   return (
     <section id="footer" className={styles.container}>
         <p>&copy; 2024 Lisjak Jakov. <br />
-        All rights reserved.
+        Sva prava pridržana.
         </p>
     </section>
   )
