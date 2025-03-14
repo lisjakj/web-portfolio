@@ -51,13 +51,13 @@ function Hero() {
                 </button>
             </a>
             <span>
-                <a href="https://twitter.com/" target="_blank">
+                <a href="https://x.com/jakovlis" target="_blank">
                     <img src={twitterIcon} alt="Twitter icon" />
                 </a>
-                <a href="https://linkedin.com/" target="_blank">
+                <a href="https://www.linkedin.com/in/jakov-lisjak-818536337" target="_blank">
                     <img src={linkedinIcon} alt="Linkedin icon" />
                 </a>
-                <a href="https://github.com/" target="_blank">
+                <a href="https://github.com/lisjakj" target="_blank">
                     <img src={githubIcon} alt="Github icon" />
                 </a>
             </span>

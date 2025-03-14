@@ -11,19 +11,19 @@ function Contact() {
 
     emailjs
       .sendForm(
-        'service_tg9z2pe',
-        'template_s7ys2om',
+        'service_6o8r7sd',
+        'template_glrsmtd',
         form.current,
-        '-Cei3Znj0gWGTwppT'
+        'o9672Frfm4-v-XDc-'
       )
       .then(
         (result) => {
           console.log('Success:', result.text);
-          alert('Message Sent Successfully!');
+          alert('Poruka poslana, javit ću Vam se ubrzo!');
         },
         (error) => {
           console.log('Error:', error.text);
-          alert('Failed to send message. Please try again.');
+          alert('Slanje nije uspjelo. Pokušajte ponovno.');
         }
       );
 
@@ -40,7 +40,7 @@ function Contact() {
           </label>
           <input
             type="text"
-            name="name"
+            name="from_name"
             id="name"
             placeholder="Ime i prezime"
             required
@@ -52,7 +52,7 @@ function Contact() {
           </label>
           <input
             type="text"
-            name="email"
+            name="from_email"
             id="email"
             placeholder="Email"
             required
