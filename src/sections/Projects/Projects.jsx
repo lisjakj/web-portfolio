@@ -9,17 +9,18 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projekti</h1>
       <div className={styles.ProjectsContainer}>
-        <ProjectCard
-          src={nutriplan}
-          link="https://modest-guests-593738.framer.app"
-          h3="NutriPlan"
-          p="Usluga zdrave prehrane"
-        />
+        
         <ProjectCard
           src={viberr}
           link="https://brziotkupvozila.com"
           h3="Otkup vozila"
           p="Stranica za profesionalni otkup vozila"
+        />
+        <ProjectCard
+          src={nutriplan}
+          link="https://modest-guests-593738.framer.app"
+          h3="NutriPlan"
+          p="Usluga zdrave prehrane"
         />
         <ProjectCard
           src={vanzemljac}
