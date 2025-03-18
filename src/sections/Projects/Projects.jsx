@@ -18,7 +18,7 @@ function Projects() {
         />
         <ProjectCard
           src={nutriplan}
-          link="https://modest-guests-593738.framer.app"
+          link="https://nutriplan.framer.website"
           h3="NutriPlan"
           p="Usluga zdrave prehrane"
         />
