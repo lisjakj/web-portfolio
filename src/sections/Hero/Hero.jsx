@@ -41,10 +41,10 @@ function Hero() {
                 <br />
                 Lisjak
             </h1>
-            <h2>Full-stack developer</h2>
+            <h2>Software Engineer</h2>
             
             <p className={styles.description}>
-            S entuzijazmom za razvoj modernih React web aplikacija i fokusom na izvrsno korisničko iskustvo.
+            S entuzijazmom za razvoj modernih web i mobilnih aplikacija, usmjeren na stvaranje intuitivnih, brzih i vizualno privlačnih rješenja koja pružaju izvrsno korisničko iskustvo.
             </p>
             <a href={CV} download>
                 <button className="hover">
